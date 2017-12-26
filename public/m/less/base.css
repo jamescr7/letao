@@ -1,0 +1,52 @@
+#header {
+  z-index: 999;
+  height: 45px;
+  background-color: #006699;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+#header > h4 {
+  margin: 0;
+  line-height: 45px;
+  font-weight: normal;
+}
+#header .fa-search {
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 14px;
+}
+#footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color: #006699;
+  z-index: 999;
+}
+#footer .mui-row > div > a {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding: 11px;
+}
+#footer .mui-row > div > a::before {
+  display: block;
+}
+#footer .mui-row > div > a.active {
+  color: orange;
+}
+html,
+body {
+  height: 100%;
+}
+#main {
+  padding-top: 45px;
+  padding-bottom: 50px;
+  height: 100%;
+  background-color: #fff;
+}

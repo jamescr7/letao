@@ -1,0 +1,155 @@
+#header {
+  z-index: 999;
+  height: 45px;
+  background-color: #006699;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+#header > h4 {
+  margin: 0;
+  line-height: 45px;
+  font-weight: normal;
+}
+#header .fa-search {
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 14px;
+}
+#footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color: #006699;
+  z-index: 999;
+}
+#footer .mui-row > div > a {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding: 11px;
+}
+#footer .mui-row > div > a::before {
+  display: block;
+}
+#footer .mui-row > div > a.active {
+  color: orange;
+}
+html,
+body {
+  height: 100%;
+}
+#main {
+  padding-top: 45px;
+  padding-bottom: 50px;
+  height: 100%;
+  background-color: #fff;
+}
+#nav {
+  padding: 10px;
+}
+#nav .mui-row > div > a {
+  display: block;
+}
+#nav .mui-row > div > a > img {
+  width: 100%;
+  height: 100%;
+}
+#adv {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 1px solid #ccc;
+}
+#adv > .mui-row .adv-left > .mui-row > div > a {
+  display: block;
+}
+#adv > .mui-row .adv-left > .mui-row > div > a > img {
+  width: 100%;
+}
+#adv > .mui-row .adv-right > a {
+  display: block;
+}
+#adv > .mui-row .adv-right > a > img {
+  width: 100%;
+}
+#brand {
+  padding: 0 10px;
+}
+#brand .title {
+  display: block;
+}
+#brand .title > img {
+  width: 100%;
+}
+#brand .mui-row > div > a {
+  display: block;
+}
+#brand .mui-row > div > a > img {
+  width: 100%;
+}
+#sport,
+#women,
+#man {
+  padding: 0 10px;
+}
+#sport .title,
+#women .title,
+#man .title {
+  display: block;
+}
+#sport .title > img,
+#women .title > img,
+#man .title > img {
+  width: 100%;
+}
+#sport > .mui-row > div,
+#women > .mui-row > div,
+#man > .mui-row > div {
+  padding: 0 5px;
+}
+#sport > .mui-row > div .product,
+#women > .mui-row > div .product,
+#man > .mui-row > div .product {
+  box-shadow: 0 0 5px #ccc;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+#sport > .mui-row > div .product > a,
+#women > .mui-row > div .product > a,
+#man > .mui-row > div .product > a {
+  display: block;
+}
+#sport > .mui-row > div .product > a > img,
+#women > .mui-row > div .product > a > img,
+#man > .mui-row > div .product > a > img {
+  width: 100%;
+}
+#sport > .mui-row > div .product .product-name,
+#women > .mui-row > div .product .product-name,
+#man > .mui-row > div .product .product-name {
+  font-size: 14px;
+  height: 28px;
+  line-height: 14px;
+  overflow: hidden;
+}
+#sport > .mui-row > div .product .product-price,
+#women > .mui-row > div .product .product-price,
+#man > .mui-row > div .product .product-price {
+  font-size: 12px;
+}
+#sport > .mui-row > div .product .product-price > span,
+#women > .mui-row > div .product .product-price > span,
+#man > .mui-row > div .product .product-price > span {
+  color: #f40;
+}
+#sport > .mui-row > div .product .product-price > del,
+#women > .mui-row > div .product .product-price > del,
+#man > .mui-row > div .product .product-price > del {
+  color: #ccc;
+}

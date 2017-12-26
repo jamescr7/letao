@@ -1,0 +1,60 @@
+// 
+@main-color:#006699;
+
+#header{
+    z-index: 999;
+    height: 45px;
+    background-color: @main-color;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    >h4{
+        margin: 0;
+        line-height: 45px;
+        font-weight: normal;
+    }
+    .fa-search{
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    }
+}
+// 底部的公共样式
+#footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    background-color: @main-color;
+    z-index: 999;
+    .mui-row{
+        >div{
+            >a{
+                color: #fff;
+                font-size: 14px;
+                display: block;
+                text-align: center;
+                padding: 11px;
+                &::before{
+                    display: block;
+                }
+                &.active{
+                    color: orange;
+                }
+            }
+        }
+    }
+}
+html,body{
+    height: 100%;
+}
+// 主体内容的公共样式
+#main{
+    padding-top: 45px;
+    padding-bottom: 50px;
+    height: 100%;
+    background-color: #fff;
+}
